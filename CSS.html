@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>University of Ibadan Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https//fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <section class="header">
+
+        <nav>
+            <a href="CSS.html"><img src="images/Unibadan's logo.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            
+            <h1>World's Biggest University</h1><br>
+            <p>Making website is now one of the easiest thing in the world. You
+                just need to learn HTML,CSS,<br>Javascript and you are good to go.</p>
+            <a href="" class="hero-btn">Visit Us To Know More</a>
+        </div>
+    </section>
+    <!-----Course-->
+
+    <section class="course">
+        <h1>Courses We offer</h1>
+        <p>We give out the best</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>PRELIMINARY STUDIES</p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>B.SC, B.A, B.ED, B.TECH PROGRAMMES</p>
+            </div>
+
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>MASTERS AND DOCTORATE PROGRAMMES</p>
+            </div>
+        </div>
+    </section>
+
+    <!-----campus-------->
+    <section class="campus">
+        <h1>Our Global Campus</h1>
+        <p>THE ONLY CITADEL OF KNOWLEDGE</p>
+
+        <div class="row">
+            <div class="campus-col">
+                <img src="images/L.T2.jpg">
+                <div class="layer">
+                    <h3>UI</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/college od medicine.jpg">
+                <div class="layer">
+                    <h3>UCH</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/KDL-Chat-Room-University-of-Ibadan.webp">
+                <div class="layer">
+                    <h3>LIBRARY</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!---------Relaxation Areas------>
+
+    <section class="relaxation-area">
+        <h1>OUR RELAXATION AREAS</h1>
+        <p>We offer the best relaxation spot varying from our sporting<br> center to our zoological garden and<br>our
+            love garden.</p>
+
+        <div class="row">
+            <div class="relaxation-col">
+                <img src="Images/sporting center.jpg">
+                <h3>COMFORTABILITY</h3>
+                <p>For all types of sport</p>
+            </div>
+
+            <div class="relaxation-col">
+                <img src="Images/zoological garden.jpg">
+                <h3>COMFORTABILITY</h3>
+                <p>For lovers of animals</p>
+            </div>
+
+            <div class="relaxation-col">
+                <img src="Images/love garden.jpg">
+                <h3>COMFORTABILITY</h3>
+                <p>Serene environment where you can reflect,<br> sit and gist with your loved ones</p>
+            </div>
+        </div>
+    </section>
+
+    <!--------TESTIMONIALS------>
+
+    <section class="testimonial">
+        <h1>What our student says</h1>
+        <p>A TRIAL THEY SAY WILL CONVINCE YOU</p>
+
+        <div class="row">
+            <div class="testimonial-col">
+                <img src="Images/testimonial 1.jpg">
+                <div>
+                    <p>Its a world renowned university you can never regret bringing your ward to</p>
+                    <h3>OWOSENI BOLUWATIFE</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+            </div>
+
+            <div class="testimonial-col">
+                <img src="Images/testi 2.jpg">
+                <div>
+                    <p>A citadel of excellence</p>
+                    <h3>OKUNOLA DOYINSOLA</h3> <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!---------Call To Action------>
+    <section class="cta">
+        <h1>Enroll For Our Various Online Courses<br><br>Anywhere From The World</h1>
+        <a href="" class="hero-btn">CONTACT US</a>
+    </section>
+
+    <!--------Footer--------->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>We offer the best</p>
+        <div clas="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedIn"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> Easy Tutorials</p>
+    </section>
+
+
+
+
+    <!--------Javascript for Toggle Menu-------->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+
+    </scripT>
+
+
+
+</body>
+
+</html>
