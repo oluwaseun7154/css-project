@@ -18,16 +18,12 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
+/*
+git add .
+git commit -m "first code"
+git push
 
-/* git config --global user.password "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"
-
-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
-sdfeferf
-git remote set-url origin https://oluwaseun7154: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@github.com/oluwaseun7154/css-project.git */
-
-
-git remote set-url origin https://github.com/oluwaseun7154/css-project.git
-
+*/
 
 nav img{
     width: 50px;
